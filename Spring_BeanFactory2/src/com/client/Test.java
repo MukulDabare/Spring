@@ -15,6 +15,7 @@ public class Test {
 		BeanFactory bf = new XmlBeanFactory(r);
 		Student s = bf.getBean("s",Student.class);
 		s.display();
+		System.out.println(s);
 	
 		
 	}
