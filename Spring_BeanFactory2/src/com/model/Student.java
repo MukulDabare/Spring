@@ -4,11 +4,13 @@ public class Student {
 	
 	public Student() {
 		
-		System.out.println("Student Constructor Task 1");
+		System.out.println("Student Constructor");
 	}
+	
 	public void display()
 	{
-		System.out.println("Display method for task 1");
+		System.out.println("Display Method");
 	}
+	
 
 }

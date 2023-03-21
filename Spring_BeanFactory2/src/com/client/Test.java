@@ -10,11 +10,12 @@ import com.model.Student;
 public class Test {
 
 	public static void main(String[] args) {
-        //By using Core Container
+        //By using Core Container or BeanFactory.
 		Resource r = new ClassPathResource("beans.xml");
 		BeanFactory bf = new XmlBeanFactory(r);
 		Student s = bf.getBean("s",Student.class);
 		s.display();
+	
 		
 	}
 
