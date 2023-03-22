@@ -16,6 +16,7 @@ public class Test {
 		Student s = bf.getBean("s",Student.class);
 		s.display();
 		System.out.println(s);
+		System.out.println("How you doing?");
 	
 		
 	}
