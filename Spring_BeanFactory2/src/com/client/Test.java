@@ -6,6 +6,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 import com.model.Student;
+import com.model.Teacher;
 
 public class Test {
 
@@ -17,7 +18,12 @@ public class Test {
 		s.display();
 		System.out.println(s);
 		System.out.println("How you doing?");
-	
+		Teacher t = bf.getBean("t", Teacher.class);
+		System.out.println(t);
+		Teacher t2 = bf.getBean("t", Teacher.class);
+		System.out.println(t2);
+	   
+	   
 		
 	}
 
