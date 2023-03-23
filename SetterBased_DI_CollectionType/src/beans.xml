@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="s" class="com.model.Student">
+    <property name="list">
+    <list>
+     <value>Amar</value>
+     <value>Summer</value>
+     <value>Hummer</value>
+    </list>
+    </property>
+    <property name="set">
+    <set>
+    <value>101</value>
+    <value>102</value>
+    <value>103</value>
+    </set>
+    </property>
+    <property name="map">
+    <map>
+    <entry key="Nagpur" value="440015"></entry>
+    <entry key="Nagpur Ruler" value="440016"></entry>
+    <entry key="Nagpur UBN" value="440017"></entry>
+    </map>
+    </property>
+    </bean>
+    
+
+   
+
+</beans>
